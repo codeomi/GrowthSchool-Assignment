@@ -7,7 +7,7 @@
   margin-bottom: 3vh;
 }
 
-.container {
+.headerContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
