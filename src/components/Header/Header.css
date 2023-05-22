@@ -1,0 +1,49 @@
+.header {
+  background-color: #eeffd9;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandNameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+.verfiedIcon {
+  margin-top: 1vh;
+}
+
+.brandName {
+  font-weight: 700;
+  font-size: 3vh;
+  letter-spacing: -1px;
+}
+
+.slogan {
+  color: #1e242a;
+  font-weight: 500;
+}
+.user-avatar {
+  margin: 0 !important;
+  max-width: 150px;
+  max-height: 150px;
+  width: 120px;
+  height: 120px;
+}
+
+@media only screen and (min-width: 600px) {
+
+
+}
