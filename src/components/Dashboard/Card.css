@@ -1,0 +1,229 @@
+@media only screen and (min-width: 800px) {
+  .cardContainer {
+    max-width: 40vw;
+    height: 15vh;
+    background-color: #eeffd9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    border-radius: 2vh;
+    padding: 0;
+    -webkit-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+    box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+  }
+
+  .courseimgContainer {
+    text-align: center;
+    height: 15vh;
+  }
+
+  #img {
+    width: 19vh;
+    height: 100%;
+    border-radius: 2vh 0 0 2vh;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 1.5vh 4vh 1.5vh 3vh;
+  }
+  .title {
+    font-size: 2.3vh;
+    font-weight: 500;
+    margin-bottom: 1vh;
+  }
+
+  .description {
+    font-size: 1.5vh;
+  }
+
+  .arrowContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 1vh 0 0;
+  }
+
+  .buttonContainer {
+    display: none;
+  }
+}
+
+.cardContainer {
+  max-width: 40vmax;
+  height: 15vh;
+  background-color: #eeffd9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+  border-radius: 2vh;
+  padding: 0;
+  -webkit-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+  box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+}
+
+.courseimgContainer {
+  text-align: center;
+  height: 15vh;
+}
+
+#img {
+  width: 19vh;
+  height: 100%;
+  border-radius: 2vh 0 0 2vh;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 1.5vh 4vh 1.5vh 3vh;
+}
+.title {
+  font-size: 2.3vh;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+
+.description {
+  font-size: 1.5vh;
+}
+
+.arrowContainer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 1vh 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .cardContainer {
+    max-width: 35vmax;
+    height: 40vh;
+    background-color: #eeffd9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vh 1vh 0 1vh;
+    margin: 0 2vh 4vh 0;
+
+    border-radius: 4vh;
+    -webkit-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+    box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+  }
+
+  .courseimgContainer {
+    height: 20vh;
+  }
+
+  #img {
+    width: 36vw;
+    height: 20vh;
+    border-radius: 4vh;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .title {
+    font-size: 2.3vh;
+    font-weight: 500;
+  }
+
+  .description {
+    font-size: 1.5vh;
+  }
+
+  .arrowContainer {
+    display: none;
+  }
+
+  .registerButton {
+    cursor: pointer;
+    width: 40vw;
+    height: 4vh;
+    border-radius: 4vh;
+    background-color: #fefeeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .cardContainer {
+      max-width: 35vmax;
+      height: 50vh;
+      background-color: #eeffd9;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 2vh 1vh 0 1vh;
+      margin: 0 2vh 4vh 0;
+  
+      border-radius: 4vh;
+      -webkit-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+      -moz-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+      box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
+    }
+  
+    .courseimgContainer {
+      height: 20vh;
+    }
+  
+    #img {
+      width: 36vw;
+      height: 20vh;
+      border-radius: 4vh;
+    }
+  
+    .descriptionContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+    }
+    .title {
+      font-size: 2.3vh;
+      font-weight: 500;
+    }
+  
+    .description {
+      font-size: 1.5vh;
+    }
+  
+    .arrowContainer {
+      display: none;
+    }
+  
+    .registerButton {
+      cursor: pointer;
+      width: 40vw;
+      height: 4vh;
+      border-radius: 4vh;
+      background-color: #fefeeb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+    }
+  }
+  
