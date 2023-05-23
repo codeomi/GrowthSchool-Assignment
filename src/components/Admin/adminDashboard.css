@@ -1,0 +1,75 @@
+.adminDashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newPostButton{
+    width: 18vh;
+    margin: 3vw 1vw 2vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeffd9;
+    font-size: 3vh;
+    font-weight: 500;
+    cursor: pointer;
+    color: #35550f;
+    border-radius: 2vh;
+    padding: 0.5vh;
+    transition: all 0.3s;
+    
+}
+
+.newPostButton:hover{
+    background-color: #35550f;
+    color: #eeffd9;
+
+}
+
+.allPostcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 800px) {
+    .adminDashboard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .newPostButton{
+        width: 18vh;
+        margin: 3vw 1vw 2vw 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eeffd9;
+        font-size: 3vh;
+        font-weight: 500;
+        cursor: pointer;
+        color: #35550f;
+        border-radius: 4vh;
+        padding: 0.5vh;
+        transition: all 0.3s;
+        
+    }
+    
+    .newPostButton:hover{
+        background-color: #35550f;
+        color: #eeffd9;
+    
+    }
+    
+    .allPostcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

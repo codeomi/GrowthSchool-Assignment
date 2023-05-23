@@ -13,8 +13,9 @@ const Dashboard = () => {
           <Card></Card>
           <Card></Card>
           <Card></Card>
-          <Card></Card>
-          <Card></Card>
+        </div>
+        <div className="categoryContainer">Trending Courses</div>
+        <div className="cardGroup">
           <Card></Card>
           <Card></Card>
           <Card></Card>
