@@ -1,5 +1,8 @@
 .container {
-  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11vw;
 }
 
 .formContainer {
@@ -53,7 +56,7 @@ form {
   transition: 0.2s all;
   border-radius: 4vh;
 }
-.submitButton:hover{
-    background-color: #647253 ;
-    color: #fefeeb;
+.submitButton:hover {
+  background-color: #647253;
+  color: #fefeeb;
 }
