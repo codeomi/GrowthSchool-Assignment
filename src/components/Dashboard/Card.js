@@ -20,7 +20,7 @@ const Card = () => {
             <div className="title">100 hours of coding</div>
             <div className="description">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-              nemo iure fugiat repellat animi eveniet!
+              
             </div>
           </div>
           <div className="arrowContainer container-3">

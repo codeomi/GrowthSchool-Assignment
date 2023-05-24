@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #f7f7f7;
 }
 
 .categoryContainer{
@@ -13,18 +14,31 @@
 
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+    .dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+        background-color: #f7f7f7da;
+}
 
     .cardGroup{
         max-width: 100%;
+        width: fit-content;
         height: fit-content;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         flex-wrap: nowrap;
-        overflow-x: scroll;
+        overflow: auto;
+        overflow-x: auto;
         overflow-y: hidden;
+        margin-left: 10vw;
+        padding: auto;
+   
     }
     
     .categoryContainer{

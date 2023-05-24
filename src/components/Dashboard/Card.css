@@ -1,6 +1,6 @@
 @media only screen and (min-width: 800px) {
   .cardContainer {
-    max-width: 40vw;
+    max-width: 50vw;
     height: 15vh;
     background-color: #eeffd9;
     display: flex;
@@ -133,9 +133,9 @@
   color:#3c4631;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .cardContainer {
-    max-width: 35vmax;
+    width: 65vw;
     height: 40vh;
     background-color: #eeffd9;
     display: flex;
@@ -156,9 +156,10 @@
   }
 
   #img {
-    width: 36vw;
-    height: 20vh;
+    width: 60vw;
+    height: 17vh;
     border-radius: 4vh;
+
   }
 
   .descriptionContainer {
@@ -166,6 +167,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: start;
+    margin: 0;
   }
   .title {
     font-size: 2.3vh;
@@ -182,7 +184,8 @@
 
   .registerButton {
     cursor: pointer;
-    width: 40vw;
+  margin-top: 3vh;
+    width: 65vw;
     height: 4vh;
     border-radius: 4vh;
     background-color: #fefeeb;
@@ -193,9 +196,9 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .cardContainer {
-    max-width: 35vmax;
+    max-width: 40vw;
     height: 50vh;
     background-color: #eeffd9;
     display: flex;
@@ -204,7 +207,6 @@
     align-items: center;
     padding: 2vh 1vh 0 1vh;
     margin: 0 2vh 4vh 0;
-
     border-radius: 4vh;
     -webkit-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
     -moz-box-shadow: 20px 22px 33px -29px rgba(0, 0, 0, 0.77);
@@ -258,4 +260,4 @@
     justify-content: space-between;
     align-items: center;
   }
-}
+} */
