@@ -27,7 +27,7 @@ const Card = () => {
             <ArrowOutwardIcon sx={{ fontSize: 40 }} className="arrow" />
           </div>
           <div className="buttonContainer">
-            <div className="registerButton">Register</div>
+            <div className="registerButton">Apply Now</div>
           </div>
         </div>
       </div>
