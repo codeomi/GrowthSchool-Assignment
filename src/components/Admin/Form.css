@@ -47,6 +47,9 @@ form {
   border: none;
   width: 20vw;
 }
+.uploadContainer > #img {
+  border-radius: 0;
+}
 
 .submitButton {
   background-color: #fefeeb;
@@ -59,4 +62,80 @@ form {
 .submitButton:hover {
   background-color: #647253;
   color: #fefeeb;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11vw;
+  }
+
+  .formContainer {
+    text-align: center;
+    max-width: 100vmax;
+    width: 70vw;
+    background-color: #eeffd9;
+    height: 45vh;
+    padding: 2vh;
+    border: 0.5px solid #e5facb;
+    border-radius: 4vh;
+  }
+
+  .heading {
+    font-size: 3vh;
+    font-weight: 600;
+    margin-bottom: 2vh;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0 0 2vh 0;
+  }
+
+  .input-cont > div {
+    font-size: 2vh;
+    font-weight: 500;
+    margin-bottom: 1vh;
+  }
+
+  .input-cont > input {
+    height: 3vh;
+    font-size: 2vh;
+    border: none;
+    width: 70vw;
+  }
+
+  .uploadContainer {
+    height: 8vh;
+    font-size: 2vh;
+    border: none;
+    width: 70vw;
+  }
+  .uploadContainer > #img {
+    border-radius: 0;
+  }
+
+  .submitButton {
+    background-color: #fefeeb;
+    height: 3.4vh;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: 0.2s all;
+    border-radius: 4vh;
+    font-weight: 500;
+  }
+  .submitButton:hover {
+    background-color: #647253;
+    color: #fefeeb;
+  }
 }
