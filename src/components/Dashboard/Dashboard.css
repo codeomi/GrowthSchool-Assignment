@@ -1,51 +1,50 @@
-.dashboard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f7f7f7;
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
 }
 
-.categoryContainer{
-    color:#1E242A;
-    font-weight: 500;
-    font-size: 3vh;
-    padding: 5vh 0 2vh 0 ;
-
+.categoryContainer {
+  color: #1e242a;
+  font-weight: 500;
+  font-size: 3vh;
+  padding: 5vh 0 2vh 0;
 }
 
 @media screen and (max-width: 800px) {
-    .dashboard{
+  .dashboard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-        background-color: #f7f7f7da;
-}
+    background-color: #f7f7f7da;
+  }
 
-    .cardGroup{
-        max-width: 100%;
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center; */
-        align-items: center;
-        flex-wrap: nowrap;
-        overflow: auto;
-        overflow-x: auto;
-        overflow-y: hidden;
-        margin-left: 10vw;
-        padding: auto;
-   
-    }
-    
-    .categoryContainer{
-        color:#1E242A;
-        font-weight: 500;
-        font-size: 3vh;
-        padding: 5vh 0 2vh 0 ;
-    
-    }
+  .cardGroup {
+    max-width: 100%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 10vw;
+    padding: auto;
+    scrollbar-width: thin;
+    scrollbar-color: red;
+  }
+
+  .categoryContainer {
+    color: #1e242a;
+    font-weight: 500;
+    font-size: 3vh;
+    padding: 5vh 0 2vh 0;
+  }
 }
