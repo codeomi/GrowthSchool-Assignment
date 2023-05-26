@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 // mongoose.set('strictQuery', false);
 
-const mongoUri = 'mongodb+srv://omkar7890:omkar@cluster0.ymedshl.mongodb.net/';
+const mongoUri = 'mongodb+srv://omkar7890:omkar@cluster0.ymedshl.mongodb.net/posts';
 
 const connectToDatabase = async () => {
   try {
